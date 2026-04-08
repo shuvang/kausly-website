@@ -72,7 +72,7 @@ nav {
 @supports not (height: 100svh) {
   .hero { height: 100vh; }
 }
-.hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; height: 600px; z-index: 2; background: linear-gradient(to bottom, transparent 0%, rgba(10,10,10,0.3) 40%, rgba(10,10,10,0.7) 70%, rgba(10,10,10,1) 100%); }
+.hero-overlay { position: absolute; inset: 0; z-index: 2; background: linear-gradient(to bottom, transparent 0%, rgba(10,10,10,0.3) 40%, rgba(10,10,10,0.7) 70%, rgba(10,10,10,1) 100%); }
 .hero-content { position: relative; z-index: 2; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 24px; max-width: 900px; padding: 0 24px; }
 .hero-headline { font-size: clamp(36px, 4vw, 59.7px); font-weight: 400; letter-spacing: -0.664px; line-height: 1.11; color: #fff; }
 .hero-sub { font-size: clamp(16px, 1.4vw, 20px); font-weight: 400; color: rgba(255,255,255,0.9); letter-spacing: -0.3px; line-height: 1.6; }
@@ -254,8 +254,8 @@ section, .section { position: relative; background: #0a0a0a; isolation: isolate;
 }
 /* Partner page responsive */
 @media (max-width: 768px) {
-  .pw-header { padding: 100px 24px 60px; }
-  .pw-main { padding: 0 24px 80px; flex-direction: column; gap: 40px; }
+  .pw-header { padding: 100px 20px 60px; }
+  .pw-main { padding: 0 20px 80px; flex-direction: column; gap: 40px; }
   .pw-left { flex: unset; width: 100%; }
   .pw-right { flex: unset; width: 100%; min-width: 0; box-sizing: border-box; }
   .pw-form-row { flex-direction: column; gap: 16px; }
@@ -265,7 +265,7 @@ section, .section { position: relative; background: #0a0a0a; isolation: isolate;
 }
 
 /* FOOTER */
-footer { background: #111113; padding: 66px 192px 50px; }
+footer { background: #111113; padding: 66px 80px 50px; }
 .footer-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 48px; padding-bottom: 32px; }
 .footer-logo { font-family: 'Kaisei Harunoumi', serif; font-size: 36px; color: #fff; text-decoration: none; flex-shrink: 0; }
 .footer-nav-cols { display: flex; gap: 80px; flex: 1; justify-content: center; }
@@ -344,14 +344,14 @@ footer { background: #111113; padding: 66px 192px 50px; }
   .cta-box .btn-white { min-width: 200px; padding: 16px 40px; display: block; margin: 0 auto; }
   .cta-ambient { display: block; }
   .cta-glow { display: none; }
-  footer { padding: 48px 40px 0 40px; }
+  footer { padding: 48px 24px 40px; }
   .footer-top { flex-direction: column; gap: 32px; }
   .footer-nav-cols { gap: 40px; justify-content: flex-start; flex-wrap: wrap; }
 }
 
 /* MOBILE */
 @media (max-width: 480px) {
-  .container { padding: 0 24px; }
+  .container { padding: 0 20px; }
   .hero { min-height: 70vh; }
   .hero-headline { font-size: clamp(2.4rem, 10vw, 3.8rem); letter-spacing: -0.5px; }
   .hero-break { display: inline; }
@@ -380,7 +380,7 @@ footer { background: #111113; padding: 66px 192px 50px; }
   .why-card-desc { font-size: 0.82rem; }
   .faq-section { padding: 40px 0; }
   .plans-section { padding: 40px 0; }
-  .plan-card { padding: 24px; }
+  .plan-card { padding: 24px 20px; }
   .plan-amount { font-size: 32px; }
   .plan-feature span { font-size: 15px; }
   .testimonials-section { padding: 40px 0; }
@@ -392,7 +392,7 @@ footer { background: #111113; padding: 66px 192px 50px; }
   .cta-box .btn-white { min-width: 200px; padding: 16px 40px; display: block; margin: 0 auto; }
   .cta-ambient { display: block; }
   .cta-glow { display: none; }
-  footer { padding: 40px 24px 0 24px; }
+  footer { padding: 40px 24px 32px; }
   .footer-nav-cols { flex-direction: column; gap: 24px; }
   .footer-social { margin-top: 8px; }
 }

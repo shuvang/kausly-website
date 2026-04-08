@@ -425,7 +425,7 @@ export default function PartnerWithUs() {
   const [bookingSkipDetails, setBookingSkipDetails] = useState(false)
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('hello@kiis.com.np').catch(() => {})
+    navigator.clipboard.writeText('hello@kausly.com').catch(() => {})
     setCopied(true)
     setTimeout(() => setCopied(false), 2200)
   }
@@ -507,7 +507,7 @@ export default function PartnerWithUs() {
             index={0}
             icon={<EmailIcon />}
             title="Email Us"
-            value="hello@kiis.com.np"
+            value="hello@kausly.com"
             onClick={copyEmail}
           />
           <InfoBox

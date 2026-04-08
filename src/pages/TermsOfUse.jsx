@@ -33,7 +33,7 @@ export default function TermsOfUse() {
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>1. Acceptance of Terms</h2>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.5)', marginBottom: 16 }}>
-              By accessing and using the Kausly website at kiis.com.np you agree to be bound by these terms. If you do not agree please do not use our website.
+              By accessing and using the Kausly website at kausly.com you agree to be bound by these terms. If you do not agree please do not use our website.
             </p>
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>2. Use of Website</h2>
@@ -73,7 +73,7 @@ export default function TermsOfUse() {
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>9. Contact</h2>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.5)', marginBottom: 16 }}>
-              Questions about these terms? Reach us at hello@kiis.com.np
+              Questions about these terms? Reach us at hello@kausly.com
             </p>
           </motion.div>
         </div>

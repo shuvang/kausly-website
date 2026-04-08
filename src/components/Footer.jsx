@@ -120,12 +120,15 @@ export default function Footer() {
       }}
     >
       <style>{`
-        footer { padding: 80px 80px 0 80px; }
+        footer { padding: 80px 80px 50px; }
         @media (max-width: 1024px) {
-          footer { padding: 60px 40px 0 40px; }
+          footer { padding: 60px 40px 40px; }
         }
         @media (max-width: 768px) {
-          footer { padding: 48px 24px 0 24px; }
+          footer { padding: 48px 24px 40px; }
+        }
+        @media (max-width: 480px) {
+          footer { padding: 40px 20px 32px; }
         }
         @media (max-width: 900px) {
           .footer-main {
@@ -229,9 +232,9 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <span style={colHeadingStyle}>Contact</span>
-            <FooterLink href="mailto:hello@kiis.com.np">hello@kiis.com.np</FooterLink>
+            <FooterLink href="mailto:hello@kausly.com">hello@kausly.com</FooterLink>
             <FooterLink href="https://maps.google.com/?q=Kathmandu,Nepal">Kathmandu, Nepal</FooterLink>
-            <FooterLink href="mailto:hello@kiis.com.np?subject=Book a Call">Book a Call</FooterLink>
+            <FooterLink href="mailto:hello@kausly.com?subject=Book a Call">Book a Call</FooterLink>
           </div>
 
           {/* Legal */}

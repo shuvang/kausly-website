@@ -152,13 +152,20 @@ export function ShaderBackground() {
 
   if (isMobile) {
     return (
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          background: "#0a0a0a",
-        }}
-      />
+      <div style={{ position: "absolute", inset: 0, background: "#0a0a0a", overflow: "hidden" }}>
+        <div style={{
+          position: "absolute", top: "-20%", left: "-20%",
+          width: "70vw", height: "70vw", borderRadius: "50%",
+          background: "radial-gradient(circle, rgba(160,20,20,0.25) 0%, transparent 70%)",
+          filter: "blur(30px)", pointerEvents: "none",
+        }} />
+        <div style={{
+          position: "absolute", bottom: "-20%", right: "-20%",
+          width: "70vw", height: "70vw", borderRadius: "50%",
+          background: "radial-gradient(circle, rgba(20,20,160,0.25) 0%, transparent 70%)",
+          filter: "blur(30px)", pointerEvents: "none",
+        }} />
+      </div>
     )
   }
 

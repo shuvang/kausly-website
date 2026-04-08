@@ -79,7 +79,7 @@ export default function LogoSlider() {
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
-                    padding: '0 48px',
+                    padding: '0 clamp(16px, 4vw, 48px)',
                     flexShrink: 0,
                   }}
                 >

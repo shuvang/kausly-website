@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>1. Who We Are</h2>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.5)', marginBottom: 16 }}>
-              Kausly is an IT services company based in Kathmandu, Nepal. We provide device procurement, management, and maintenance services for businesses across Nepal. This policy explains how we handle information collected through our website kiis.com.np.
+              Kausly is an IT services company based in Kathmandu, Nepal. We provide device procurement, management, and maintenance services for businesses across Nepal. This policy explains how we handle information collected through our website kausly.com.
             </p>
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>2. Information We Collect</h2>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>5. Your Rights</h2>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.5)', marginBottom: 16 }}>
-              You have the right to request access to, correction of, or deletion of any personal information we hold about you. To make a request contact us at hello@kiis.com.np and we will respond within 7 business days.
+              You have the right to request access to, correction of, or deletion of any personal information we hold about you. To make a request contact us at hello@kausly.com and we will respond within 7 business days.
             </p>
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>6. Third Party Services</h2>
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
 
             <h2 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'white', marginTop: 40, marginBottom: 12 }}>8. Contact</h2>
             <p style={{ fontSize: '0.9rem', lineHeight: 1.8, color: 'rgba(255,255,255,0.5)', marginBottom: 16 }}>
-              For any privacy related questions contact us at hello@kiis.com.np or visit our Partner With Us page to get in touch directly.
+              For any privacy related questions contact us at hello@kausly.com or visit our Partner With Us page to get in touch directly.
             </p>
           </motion.div>
         </div>
