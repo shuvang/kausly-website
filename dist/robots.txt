@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kiis.com.np/sitemap.xml
