@@ -4,37 +4,37 @@ import { fadeUp, useSafeAnimation } from '../utils/animations'
 
 const testimonials = [
   {
-    quote: "Since switching to Kiis, IT has completely fallen off our worry list. Devices show up, they work, and when something goes wrong someone's already on it.",
+    quote: "Since switching to Kausly, IT has completely fallen off our worry list. Devices show up, they work, and when something goes wrong someone's already on it.",
     name: "Rajesh Shrestha",
     role: "CEO @ Himalayan Trading Co."
   },
   {
-    quote: "We used to lose hours every month chasing warranties and dealing with broken laptops. Kiis just handles all of it now. Best decision we made for the business this year.",
+    quote: "We used to lose hours every month chasing warranties and dealing with broken laptops. Kausly just handles all of it now. Best decision we made for the business this year.",
     name: "Priya Acharya",
     role: "Operations Manager @ ClearPath Consulting"
   },
   {
-    quote: "The loaner device thing saved us during a critical client presentation. Our laptop died the morning of — Kiis had a replacement at our office within the hour.",
+    quote: "The loaner device thing saved us during a critical client presentation. Our laptop died the morning of — Kausly had a replacement at our office within the hour.",
     name: "Suman Karki",
     role: "Founder @ Karki & Associates"
   },
   {
-    quote: "Finally an IT partner that actually shows up. No more waiting days for someone to look at a broken machine. Kiis is fast, reliable and worth every rupee.",
+    quote: "Finally an IT partner that actually shows up. No more waiting days for someone to look at a broken machine. Kausly is fast, reliable and worth every rupee.",
     name: "Anita Thapa",
     role: "Director @ Thapa Holdings"
   },
   {
-    quote: "We handed over all our device management to Kiis six months ago. Haven't thought about IT since. That's exactly what we needed.",
+    quote: "We handed over all our device management to Kausly six months ago. Haven't thought about IT since. That's exactly what we needed.",
     name: "Bikash Maharjan",
     role: "COO @ Himalayan Ventures"
   },
   {
-    quote: "Procurement used to be a nightmare — wrong specs, wrong prices, endless back and forth. Kiis sorted it out in one call. Genuinely impressed.",
+    quote: "Procurement used to be a nightmare — wrong specs, wrong prices, endless back and forth. Kausly sorted it out in one call. Genuinely impressed.",
     name: "Sarita Pradhan",
     role: "Admin Head @ Nepal Finance Group"
   },
   {
-    quote: "Our team went from 5 devices to 40 in three months. Kiis handled every single procurement and setup without us lifting a finger.",
+    quote: "Our team went from 5 devices to 40 in three months. Kausly handled every single procurement and setup without us lifting a finger.",
     name: "Rohan Sthapit",
     role: "CTO @ Kathmandu Labs"
   },
@@ -44,7 +44,7 @@ const testimonials = [
     role: "MD @ Summit Retail"
   },
   {
-    quote: "Kiis doesn't just fix things — they flag issues before they become problems. That proactive approach has saved us multiple times.",
+    quote: "Kausly doesn't just fix things — they flag issues before they become problems. That proactive approach has saved us multiple times.",
     name: "Nabin Gurung",
     role: "Operations Lead @ Peak Solutions"
   }

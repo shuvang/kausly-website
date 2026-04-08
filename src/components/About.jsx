@@ -4,7 +4,7 @@ import RevealText from './RevealText'
 import { useSafeAnimation } from '../utils/animations'
 
 const para1 = "Nepal's businesses have a habit of ignoring IT right up until the laptop dies in the middle of a meeting."
-const para2 = "Kiis exists so that never happens. Right devices, right price, always running — and when things go wrong, we're already on it."
+const para2 = "Kausly exists so that never happens. Right devices, right price, always running — and when things go wrong, we're already on it."
 const sub    = "No in-house IT headaches. Just a partner who handles all of it."
 
 const paraVariant = {

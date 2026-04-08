@@ -42,7 +42,7 @@ const frames = [
 
 export default function Preloader() {
   const { pathname } = useLocation()
-  const alreadyVisited = sessionStorage.getItem('kausly-visited')
+  const alreadyVisited = sessionStorage.getItem('kausly-v2')
   const [done, setDone] = useState(!!alreadyVisited)
   const [activeDots, setActiveDots] = useState([])
   const intervalRef = useRef(null)
@@ -57,7 +57,7 @@ export default function Preloader() {
         clearInterval(intervalRef.current)
         setTimeout(() => {
           setDone(true)
-          sessionStorage.setItem('kausly-visited', 'true')
+          sessionStorage.setItem('kausly-v2', 'true')
         }, 300)
         return
       }

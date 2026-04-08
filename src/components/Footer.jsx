@@ -276,9 +276,9 @@ export default function Footer() {
             ))}
           </div>
 
-          {/* Ask about Kiis */}
+          {/* Ask about Kausly */}
           <div>
-            <span style={colHeadingStyle}>Ask about Kiis</span>
+            <span style={colHeadingStyle}>Ask about Kausly</span>
             {aiPlatforms.map((p) => (
               <AiLink key={p.name} name={p.name} url={p.url} />
             ))}
