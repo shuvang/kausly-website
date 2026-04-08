@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIIS — Your IT Guy. Minus the IT Guy.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Figtree:wght@400;500;600;700&family=Kaisei+Harunoumi&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#whyus">Why us</a>
+    <a href="#plans">Plans</a>
+  </div>
+  <a href="#" class="nav-logo">KIIS</a>
+  <div class="nav-right">
+    <a href="#contact" class="btn-nav">Partner with us</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#services" class="mobile-link">Services</a>
+  <a href="#whyus" class="mobile-link">Why Us</a>
+  <a href="#plans" class="mobile-link">Plans</a>
+  <a href="#contact" class="mobile-link mobile-cta">Partner with us</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <img class="hero-bg" src="https://www.figma.com/api/mcp/asset/4d444c56-76b4-49b7-8f44-b069ff39683f" alt="KIIS — Nepal IT Partner">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-headline">Your IT guy.<span class="hero-break"><br></span> Minus the IT guy.</h1>
+    <p class="hero-sub">Nepal's been trusting us with their tech for 20+ years. We procure, manage,<br class="desktop-break">and maintain IT for businesses so it just works.</p>
+    <a href="#contact" class="btn-white">Partner with us</a>
+  </div>
+</section>
+
+<!-- PAGE BODY -->
+<div class="page">
+  <div class="container">
+
+    <!-- STATS -->
+    <div class="stats-section">
+      <div class="stats-eyebrow">A little flex,<br>fully earned.</div>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-label">Years In Operation</div>
+          <div class="stat-value">20y+</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Number of Clients</div>
+          <div class="stat-value">200+</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Devices Deployed</div>
+          <div class="stat-value">40k+</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-label">Avg Problem resolution</div>
+          <div class="stat-value">98%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about-section">
+      <p class="about-body">Nepal's businesses have a habit of ignoring IT right up until the laptop dies in the middle of a meeting.<br><br>Kiis exists so that never happens. Right devices, right price, always running — and when things go wrong, we're already on it.</p>
+      <p class="about-sub">No in-house IT headaches. Just a partner who handles all of it.</p>
+    </div>
+
+    <!-- SERVICES -->
+    <section id="services" class="services-section">
+      <div class="section-header">
+        <div class="section-dot"></div>
+        <span class="section-label">Our Services</span>
+      </div>
+      <h2 class="section-title">We do three things. We do them obsessively.</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('Artifacts/Procurement Img.png')"></div>
+          <div class="card-content">
+            <div class="service-overlay"></div>
+            <div class="service-card-inner">
+              <p class="service-desc">Finding the right hardware at the right price is harder than it looks — vendors, specs, budgets, negotiations. We've been doing it for 20+ years so you don't have to. Tell us what you need. We'll handle the rest and probably get it cheaper than you would.</p>
+              <div class="service-footer">
+                <span class="service-name">Procurement</span>
+                <button class="service-plus-btn" aria-label="Learn more">
+                  <span class="plus-bar plus-h"></span>
+                  <span class="plus-bar plus-v"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('Artifacts/Management Img.png')"></div>
+          <div class="card-content">
+            <div class="service-overlay"></div>
+            <div class="service-card-inner">
+              <p class="service-desc">Your devices are out there working hard. We make sure they stay that way. We track every device in your fleet, catch problems before they happen, and tell you exactly what needs upgrading — before it decides to die on a Monday morning.</p>
+              <div class="service-footer">
+                <span class="service-name">Management</span>
+                <button class="service-plus-btn" aria-label="Learn more">
+                  <span class="plus-bar plus-h"></span>
+                  <span class="plus-bar plus-v"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="card-image" style="background-image: url('Artifacts/Maintainance Img.png')"></div>
+          <div class="card-content">
+            <div class="service-overlay"></div>
+            <div class="service-card-inner">
+              <p class="service-desc">Things break. It's annoying. We get it. That's why we show up fast, fix it faster, and if we can't — we hand you a loaner so your team doesn't miss a beat. No drama. No waiting. Just sorted.</p>
+              <div class="service-footer">
+                <span class="service-name">Maintenance</span>
+                <button class="service-plus-btn" aria-label="Learn more">
+                  <span class="plus-bar plus-h"></span>
+                  <span class="plus-bar plus-v"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="whyus" class="whyus-section">
+      <div class="section-header">
+        <div class="section-dot"></div>
+        <span class="section-label">Why choose us?</span>
+      </div>
+      <h2 class="section-title">This is what a real hardware partner looks like.</h2>
+      <div class="whyus-grid">
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/22ab2539-c890-4bb3-a31d-c5194bb83db2" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">Born Here. Built for Here.</div>
+            <div class="why-card-desc">20+ years deep in Nepal's IT trenches — we know the vendors, the quirks, and exactly what works.</div>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/07a09386-c795-4497-bc48-ded5bff768bf" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">No Brand Loyalty. Only Yours.</div>
+            <div class="why-card-desc">We source from anywhere — the best device for you, not the one with the fattest margin for us.</div>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/f4ea8c99-9a4c-4e84-aba7-186af12be620" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">Down? You Won't Even Notice.</div>
+            <div class="why-card-desc">Loaner devices while yours gets fixed — your team keeps moving, no matter what breaks.</div>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/de2af1b1-9250-471e-936f-9df7ab782f9b" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">One Person. All of It.</div>
+            <div class="why-card-desc">No ticket queues, no being passed around — one person who knows your setup inside out.</div>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/1d84bcfb-324d-4679-a54d-b350a5777b0c" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">Day One to Done.</div>
+            <div class="why-card-desc">First device to last replacement, we're with you the entire way — no handoffs, no gaps.</div>
+          </div>
+        </div>
+        <div class="why-card">
+          <div class="why-icon-wrap">
+            <img src="https://www.figma.com/api/mcp/asset/08e926f7-5e6b-45d6-b6f9-8161820a4b46" alt="">
+          </div>
+          <div class="why-card-text">
+            <div class="why-card-title">Know Before It Breaks.</div>
+            <div class="why-card-desc">Always see what you have, what's aging, and what needs replacing — before it becomes your problem.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANS -->
+    <section id="plans" class="plans-section">
+      <div class="section-header">
+        <div class="section-dot"></div>
+        <span class="section-label">Our Plans</span>
+      </div>
+      <h2 class="section-title">Straightforward plans for businesses that mean business.</h2>
+
+      <div class="billing-toggle" id="billing-toggle" onclick="toggleBilling()">
+        <span class="billing-label" id="lbl-monthly">Bill Monthly</span>
+        <div class="toggle-track" id="toggle-track">
+          <div class="toggle-knob"></div>
+        </div>
+        <span class="billing-label dim" id="lbl-annual">Annually (10% off)</span>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Basic -->
+        <div class="plan-card basic">
+          <div class="plan-name-row">
+            <span class="plan-name">Basic</span>
+          </div>
+          <p class="plan-desc">For small teams taking their first step toward hassle-free IT.</p>
+          <div class="plan-price">
+            <span class="plan-amount" id="price-basic">Rs.39,999</span>
+            <span class="plan-period">/month</span>
+          </div>
+          <div class="plan-features">
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/7d380b48-1ca1-4d61-8b97-53c4b124fb94" alt="✓"><span>Up to 10 devices managed</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/65978343-f349-4f66-add6-ad1a21681120" alt="✓"><span>Hardware procurement assistance</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/4e856851-8af2-4bd4-898a-de5ede2be708" alt="✓"><span>Basic review &amp; suggestions</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/7b0ea955-df75-4dfb-b945-45e10c21901b" alt="✓"><span>Email &amp; phone support</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/659f011b-c560-419a-b9f1-7fc25b2430b2" alt="✓"><span>Basic device health check</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/cd427c03-aa07-4e81-986e-45e32396825c" alt="✓"><span>Access to loaner devices</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/cd427c03-aa07-4e81-986e-45e32396825c" alt="✓"><span>1 site visit per month</span></div>
+          </div>
+        </div>
+
+        <!-- Pro -->
+        <div class="plan-card pro">
+          <div class="plan-name-row">
+            <span class="plan-name">Pro</span>
+            <span class="popular-badge">Popular</span>
+          </div>
+          <p class="plan-desc">For growing businesses that need their IT to keep up with them.</p>
+          <div class="plan-price">
+            <span class="plan-amount" id="price-pro">Rs.79,999</span>
+            <span class="plan-period">/month</span>
+          </div>
+          <div class="plan-features">
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Everything in Basic</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Up to 30 devices managed</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Priority procurement</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Advance review &amp; suggestions</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Fast-track maintenance</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Dedicated point of contact</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>Loaner devices, guaranteed</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/68cbb5b3-3c60-4c96-b0d1-06eff0243bd5" alt="✓"><span>1+1 site visit per month</span></div>
+          </div>
+        </div>
+
+        <!-- Max -->
+        <div class="plan-card max">
+          <div class="plan-name-row">
+            <span class="plan-name">Max</span>
+          </div>
+          <p class="plan-desc">For established operations that can't afford IT to ever be the problem.</p>
+          <div class="plan-price">
+            <span class="plan-amount" id="price-max">Rs.1,29,999</span>
+            <span class="plan-period">/month</span>
+          </div>
+          <div class="plan-features">
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/f9adbdd1-81c8-4d3e-905a-e006caae786f" alt="✓"><span>Everything in Pro</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/a4702413-f7f4-42ee-bb32-e670640180f6" alt="✓"><span>Unlimited devices</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/c4f30f12-6624-422e-8c35-3b280aaa20b1" alt="✓"><span>Same-day maintenance</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/1a7e8e97-ce8e-4822-937a-42cfd128cb82" alt="✓"><span>Monthly fleet visibility report</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/415308d9-d5d1-4454-ae8f-90e19d65bce6" alt="✓"><span>Dedicated account manager</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/ecb74962-3469-4a6f-bd5e-ec49fd2f65dd" alt="✓"><span>Custom procurement contracts</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/acb6cdf9-4b30-4d19-84bb-0888c3a2c24e" alt="✓"><span>Priority loaner pool access</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/acb6cdf9-4b30-4d19-84bb-0888c3a2c24e" alt="✓"><span>In-person review &amp; suggestions</span></div>
+            <div class="plan-feature"><img src="https://www.figma.com/api/mcp/asset/acb6cdf9-4b30-4d19-84bb-0888c3a2c24e" alt="✓"><span>1+1+1 site visit per month</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials-section">
+      <div class="section-header">
+        <div class="section-dot"></div>
+        <span class="section-label">What our clients say</span>
+      </div>
+      <h2 class="section-title">They say it better than we ever could.</h2>
+
+      <div class="testimonials-slider" id="testimonials-slider">
+        <div class="testimonial-wrapper">
+
+          <div class="t-viewport">
+
+            <div class="testimonial-card" data-index="0">
+              <img class="quote-img" src="https://www.figma.com/api/mcp/asset/a78acf4a-dab8-4d28-bec0-b2e734ac2220" alt="">
+              <p class="testimonial-text">Since switching to Kiis, IT has completely fallen off our worry list. Devices show up, they work, and when something goes wrong someone's already on it. Honestly didn't think it could be this simple.</p>
+              <div class="testimonial-author">
+                <strong class="testimonial-name">Rajesh Shrestha</strong>
+                <span class="testimonial-role">CEO @ Himalayan Trading Co.</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card" data-index="1">
+              <img class="quote-img" src="https://www.figma.com/api/mcp/asset/a78acf4a-dab8-4d28-bec0-b2e734ac2220" alt="">
+              <p class="testimonial-text">We used to lose hours every month chasing warranties and dealing with broken laptops. Kiis just handles all of it now. Best decision we made for the business this year.</p>
+              <div class="testimonial-author">
+                <strong class="testimonial-name">Priya Acharya</strong>
+                <span class="testimonial-role">Operations Manager @ ClearPath Consulting</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card" data-index="2">
+              <img class="quote-img" src="https://www.figma.com/api/mcp/asset/a78acf4a-dab8-4d28-bec0-b2e734ac2220" alt="">
+              <p class="testimonial-text">The loaner device thing saved us during a critical client presentation. Our laptop died the morning of — Kiis had a replacement at our office within the hour. That's the kind of partner you want.</p>
+              <div class="testimonial-author">
+                <strong class="testimonial-name">Suman Karki</strong>
+                <span class="testimonial-role">Founder @ Karki &amp; Associates</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testimonial-arrows">
+            <button class="t-arrow t-arrow-prev" aria-label="Previous"><span class="t-chevron t-chevron-left"></span></button>
+            <button class="t-arrow t-arrow-next" aria-label="Next"><span class="t-chevron t-chevron-right"></span></button>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+    <section id="contact" class="cta-section">
+      <div class="cta-box" id="cta-box">
+        <div class="cta-glow" id="cta-glow"></div>
+        <div class="cta-ambient"></div>
+        <div class="cta-content">
+          <h2 class="cta-text">Let's make IT boring again.<br>In a good way ofc</h2>
+          <a href="mailto:hello@kiis.com.np" class="btn-white">Partner with us</a>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- /container -->
+</div><!-- /page -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <a href="#" class="footer-logo">KIIS</a>
+    <div class="footer-nav-cols">
+      <div class="footer-col">
+        <a href="#services">Services</a>
+        <a href="#whyus">Why Us</a>
+      </div>
+      <div class="footer-col">
+        <a href="#">Help</a>
+        <a href="#contact">Partner with us</a>
+      </div>
+      <div class="footer-col">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+      <div class="footer-col">
+        <a href="#plans">Plans</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="https://www.figma.com/api/mcp/asset/7e0b008a-3025-480e-916a-211cd496979d" alt="LinkedIn"></a>
+      <a href="#"><img src="https://www.figma.com/api/mcp/asset/8d6d2eb4-51ff-43b3-83c8-14994ff36f49" alt="X / Twitter"></a>
+    </div>
+  </div>
+  <div class="footer-divider"></div>
+  <p class="footer-copy">Copyright &copy; 2026 KIIS. All rights reserved.</p>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
