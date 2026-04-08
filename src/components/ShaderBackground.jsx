@@ -4,10 +4,7 @@ import * as THREE from "three"
 export function ShaderBackground() {
   const containerRef = useRef(null)
 
-  const isMobile = window.innerWidth <= 480
-
   useEffect(() => {
-    if (isMobile) return
     if (!containerRef.current) return
     const container = containerRef.current
 
@@ -146,28 +143,7 @@ export function ShaderBackground() {
       geometry.dispose()
       material.dispose()
     }
-  }, [isMobile])
-
-  if (isMobile) {
-    return (
-      <div style={{ position: "absolute", inset: 0, background: "#0a0a0a", overflow: "hidden" }}>
-        <div style={{
-          position: "absolute", top: "-30%", left: "-20%",
-          width: "80vw", height: "80vw", borderRadius: "50%",
-          background: "radial-gradient(circle, rgba(160,20,20,0.3) 0%, transparent 70%)",
-          animation: "mobileOrbRed 8s ease-in-out infinite alternate",
-          filter: "blur(20px)", pointerEvents: "none",
-        }} />
-        <div style={{
-          position: "absolute", bottom: "-30%", right: "-20%",
-          width: "80vw", height: "80vw", borderRadius: "50%",
-          background: "radial-gradient(circle, rgba(20,20,160,0.3) 0%, transparent 70%)",
-          animation: "mobileOrbBlue 10s ease-in-out infinite alternate",
-          filter: "blur(20px)", pointerEvents: "none",
-        }} />
-      </div>
-    )
-  }
+  }, [])
 
   return (
     <div
