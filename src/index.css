@@ -425,3 +425,13 @@ footer { background: #111113; padding: 66px 80px 50px; }
 @media (max-height: 500px) and (orientation: landscape) {
   .hero { min-height: 100vh; height: auto; padding-top: 100px; padding-bottom: 60px; }
 }
+
+@keyframes mobileOrbRed {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(40px, 60px) scale(1.2); }
+}
+
+@keyframes mobileOrbBlue {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-40px, -60px) scale(1.15); }
+}
